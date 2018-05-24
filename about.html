@@ -19,7 +19,7 @@ header-img: "img/about-bg.png"
 
     <p>Hey，我是<strong>王国俊</strong>，技术总监 ，现<a href="http:://visionly.org">惟视眼科</a>技术总监。前沐扬科技 · <a href="http://www.bianlianshuo.com/">变脸说</a>技术总监，北京多尼斯科技 · 时光 · 技术总监，前北京手拉手科技公司 · 手拉手 · JAVA工程师。北京多田科技 · 家电管家 · JAVA工程师。</p>
 </div>
-<div id="disqus_thread"></div>
+<!-- <div id="disqus_thread"></div>
 <script>
 
 /**
@@ -39,6 +39,30 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ -->
 
+
+ <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+
+<script>
+
+
+const gitalk = new Gitalk({
+  enable: true
+  clientID: '29a32f4a6bab2c4e4f98',
+  clientSecret: '881e571de7704ccfe5bbacca21318b58d10d627b',
+  repo: 'wgjgitalk',
+  owner: 'WGJBoy',
+  admin: ['WGJBoy'],
+  id: location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+
+</script>
 
 

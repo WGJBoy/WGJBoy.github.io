@@ -85,6 +85,15 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
+# Gitalk
+gitalk:
+  enable: true    #用来做启用判断可以不用
+  clientID: '29a32f4a6bab2c4e4f98'    #上面生成的往这里怼
+  clientSecret: '881e571de7704ccfe5bbacca21318b58d10d627b'   #同上
+  repo: wgjgitalk    #仓库名称
+  owner: WGJBoy    #github用户名
+  admin: WGJBoy
+  distractionFreeMode: true
 
 
 # Friends

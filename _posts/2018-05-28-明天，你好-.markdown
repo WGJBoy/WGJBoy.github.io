@@ -1,0 +1,43 @@
+---
+layout:     post
+title:      "我毕业这五年"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2015-01-29 12:00:00
+author:     "Kevin"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+#感慨
+
+Blig开通一年多了，终于愿意花时间写点什么了。
+
+
+
+2013年大学毕业旅行后来到了这座陌生的城市，从此踏上了追梦之路；
+经历了  [时光](http://sj.qq.com/myapp/detail.htm?apkName=com.dhonis.client) 、 [家电管家](http://sj.qq.com/myapp/detail.htm?apkName=com.fuwuniu.android.steward) 、 [手拉手]()  、 [变脸说](http://sj.qq.com/myapp/detail.htm?apkName=com.faceoff)  再到现在的  [惟视眼科](http://sj.qq.com/myapp/detail.htm?apkName=com.visionly.doctor) 、 [惟视网](http://www.visionly.org)  等等一堆大小项目，职位也从之前的 JAVA工程是走到了 CTO ，不算太艰辛，没有遇到多少困难，甚至可以说太过顺利了；
+
+可是这不是我需要的，虽然我不知道我真正需要什么。由于这个原因我陷入了深深的恐慌之中，失去了目标、方向，像一只玻璃屋里的麻雀，到处乱撞，哪里都是方向，哪里又不是方向。是撞破这玻璃还是安稳享受着室内的温暖？你们这么选？
+
+#鸣谢
+
+本 Blog 使用了大神 [黄玄](http://huangxuan.me/) 的Blog模版，在此鸣谢大神的无私开源！！！
+
+
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://wgjboy.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+

@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "为什么要学习JVM"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2018-10-31 17:00:00
+author:     "Kevin"
+header-img: "img/jvm-1.jpg"
+catalog: true
+tags:
+    - JVM
+---
+
+
+# 为什么要学习JVM
+原因有两方面，稳定和性能；
+影响这两方面的因素大概分两个角度，引用《深入理解JAVA虚拟机》中的观点
+ >1. JVM的原因：为了达到给所有硬件提供一致的虚拟平台的目的，牺牲一些与硬件相关的性能特性。
+ >2. 开发人员的原因：如果开发人员不了解虚拟机一些技术特性的运行原理，就无法写出最适合虚拟机运行的最优代码
